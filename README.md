@@ -1,7 +1,7 @@
 # 1. Detener los contenedores actuales
 docker-compose down
 
-# 2. construir las imágenes con las nuevas dependencias
+# 2. construir las imágenes con las  dependencias
 docker-compose build --no-cache
 
 # 3. Iniciar de nuevo
