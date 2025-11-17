@@ -10,6 +10,7 @@ docker-compose up -d
 # 4. Ver los logs para confirmar que ya no hay errores
 docker-compose logs -f
 
+
 # verificar que funciona
 curl http://localhost/health
 
@@ -35,6 +36,7 @@ done
 docker-compose stop api_node1
 
 # Nginx automáticamente redirige a los otros 5 nodos
+# Prueba hacer requests y verás que siguen funcionando
 
 # Volver a iniciar el nodo
 docker-compose start api_node1
